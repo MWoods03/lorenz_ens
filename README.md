@@ -4,11 +4,20 @@ Lorenz63 ensemble predictability experiment for ATOC 4815/5815.
 
 ## Usage
 
+Without installing:
+
 ```bash
-python run_lorenz_ensemble.py
+python run.py
 ```
 
-Generates `lorenz_ensemble_predictability.png`.
+After packaging (lab exercise):
+
+```bash
+pip install -e .
+run-lorenz
+```
+
+Both generate `lorenz_ensemble_predictability.png`.
 
 ## Files
 
